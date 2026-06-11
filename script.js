@@ -2,8 +2,12 @@ function setup() {
     createCanvas(1366, 768);
 }
 
-function draw() {
-    background(0);
 
-    square(683,384 , 300);
+let c1 = color(255, 204, 0);
+
+function draw() {
+    background(255);
+
+    fill(c1)
+    square(683,384,300);
 }
