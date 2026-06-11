@@ -1,9 +1,9 @@
 function setup() {
-    createCanvas(1900, 1060);
+    createCanvas(1200, 900);
 }
 
 function draw() {
     background(0);
 
-    square(850, 530, 300);
+    square(600,450 , 300);
 }
