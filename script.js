@@ -3,11 +3,10 @@ function setup() {
 }
 
 
-let c1 = color(255, 204, 0);
 
 function draw() {
     background(255);
 
-    fill(c1)
+    fill(0,0,255)
     square(683,384,300);
 }
