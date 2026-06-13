@@ -1,5 +1,5 @@
 function setup() {
-    createCanvas(1366, 768);
+    createCanvas(windowWidth, windowHeight);
 }
 
 
@@ -7,6 +7,7 @@ function setup() {
 function draw() {
     background(255);
 
-    fill(0,0,255)
-    square(683,384,300);
+    rectMode(CENTER);
+    fill(128, 255, 219)
+    square(600,384,300);
 }
