@@ -31,7 +31,6 @@ function draw() {
 
     rectMode(CORNER);
     fill(128, 255, 219);
-
     square(BOX_X, BOX_Y, BOX_W);
 
     fill(random(colors1));
