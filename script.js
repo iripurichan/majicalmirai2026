@@ -2,8 +2,17 @@ let x_shapes;
 let y_shapes;
 let size;
 
-const BOX_X = 300;
-const BOX_Y = 150;
+let colors1 = [
+
+(182, 220, 254);
+(129, 247, 229);
+(255, 191, 216);
+(239, 247, 246);
+
+]
+
+const BOX_X = 650;
+const BOX_Y = 337.5;
 const BOX_W = 500;
 const BOX_H = 500;
 
@@ -14,6 +23,7 @@ function setup() {
     y_shapes = random(BOX_Y, BOX_Y + BOX_H);
 
     size = random(100);
+
 }
 
 function draw() {
@@ -24,6 +34,6 @@ function draw() {
 
     square(BOX_X, BOX_Y, BOX_W);
 
-    fill(255, 0, 0);
+    fill(random(colors1));
     circle(x_shapes, y_shapes, size);
 }
