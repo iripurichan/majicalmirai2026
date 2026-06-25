@@ -9,5 +9,5 @@ function draw() {
 
     rectMode(CENTER);
     fill(128, 255, 219)
-    square(600,384,300);
+    square(mouseX,384,300);
 }
