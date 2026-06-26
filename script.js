@@ -33,17 +33,29 @@ function setup() {
 
 function draw() {
 
-    background(0);
+    background(61, 64, 91);
 
 
-    fill(255);
+    fill(233, 236, 239);
     quad(0, 50, 1300, 50, 1300, 625, 0, 625);
 
 
     fill(shapeColor1);
-    square(mouseX,mouseY,random(0,500))
+    square(0,208,325);
+
+    fill(shapeColor1);
+    square(325,208,325);
+
+    fill(shapeColor1);
+    square(650,208,325);
+
+    fill(shapeColor1);
+    square(975,208,325);
+
+
+
 
     }
 
     
-}
+
