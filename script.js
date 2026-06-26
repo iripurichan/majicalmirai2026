@@ -4,18 +4,8 @@ let size;
 let shapeColor1
 
 
-const BOX_X = 650;
-const BOX_Y = 337.5;
-const BOX_W = 500;
-const BOX_H = 500;
-
 function setup() {
     createCanvas(1300, 675);
-
-    x_shapes = random(BOX_X, BOX_X + BOX_W);
-    y_shapes = random(BOX_Y, BOX_Y + BOX_H);
-
-    size = random(100);
 
     colors1 = [
 
@@ -25,16 +15,28 @@ function setup() {
     color(239, 247, 246)
 
     ];
-    shapeColor1 = random(colors1)
+    shapeColor1 = random(colors1);
 
 }
 
 function draw() {
-    background(255);
+    background(0);
 
-    fill(128, 255, 219);
-    square(BOX_X, BOX_Y, BOX_W);
+    fill(255);
+    quad(0, 25, 1300, 25, 1300, 650, 0, 650);
 
-    fill(random(shapeColor1));
-    circle(x_shapes, y_shapes, size);
+    fill(shapeColor1);
+    square1(0,25,325)
+
+    fill(shapeColor1);
+    square2(325, 350, 325)
+
+    fill(shapeColor1);
+    square3(650, 350, 325)
+
+    fill(shapeColor1);
+    square4(975, 675, 325)
+
+
+    
 }
