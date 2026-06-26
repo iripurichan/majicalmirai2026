@@ -37,20 +37,20 @@ function draw() {
 
 
     fill(233, 236, 239);
-    quad(0, 50, 1300, 50, 1300, 625, 0, 625);
+    quad(0, 25, 1300, 25, 1300, 650, 0, 650);
 
 
-    fill(shapeColor1);
-    square(0,208,325);
+    fill(240, 128, 128);
+    square(325,25,325);
 
-    fill(shapeColor1);
-    square(325,208,325);
+    fill(164, 195, 178);
+    square(650,25,325);
 
-    fill(shapeColor1);
-    square(650,208,325);
+    fill(244, 226, 133);
+    square(325,350,325);
 
-    fill(shapeColor1);
-    square(975,208,325);
+    fill(234, 242, 215);
+    square(650,350,325);
 
 
 
