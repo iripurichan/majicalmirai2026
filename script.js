@@ -42,7 +42,7 @@ function draw() {
     fill(255);
     quad(0, 25, 1300, 25, 1300, 650, 0, 650);
 
-    if (frameCount % 10 === 0){
+    if (frameCount % 60 === 0){
 
     fill(shapeColor1);
     square(random(0,1300),random(25,650),random(0,500))
