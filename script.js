@@ -40,7 +40,7 @@ function draw() {
     background(0);
 
     fill(255);
-    quad(0, 25, 1300, 25, 1300, 650, 0, 650);
+    quad(0, 50, 1300, 50, 1300, 625, 0, 625);
 
     if (frameCount % 60 === 0){
 
