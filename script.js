@@ -29,7 +29,6 @@ function setup() {
 function draw() {
     background(255);
 
-    rectMode(CORNER);
     fill(128, 255, 219);
     square(BOX_X, BOX_Y, BOX_W);
 
