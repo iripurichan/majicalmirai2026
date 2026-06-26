@@ -8,11 +8,7 @@ function preload(){
 
 function setup() {
 
-    createCanvas(windowWidht,WindowHeight);
-
-
-
-
+    createCanvas(windowWidth,windowHeight);
 }
 
 function draw() {
