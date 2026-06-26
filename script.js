@@ -1,4 +1,5 @@
 let shapeColor1
+let mode = 0
 //let shapeColor2
 
 
@@ -33,10 +34,17 @@ function setup() {
 
 function draw() {
 
-    //background(255);
+    background(255);
+
+    if(mode == 0){
+
+        fill(189, 224, 254);
+        square(325,175,300);
+
+    }
 
 
-    if (frameCount % 30 === 0){
+    if (mode == 1){
 
         fill(shapeColor1);
         square(464,200,287.5);
@@ -52,6 +60,23 @@ function draw() {
     
     }
 
+    if (mode == 2){
+
+        fill(255, 200, 221);
+        square(325,175,300);
+
+
+    }
+
+    if (frameCount > 300){
+
+        mode = 1;
+    }
+
+    if (frameCount > 600){
+
+        mode = 2;
+    }
  }
 
     
