@@ -7,6 +7,8 @@ function setup() {
 
     createCanvas(1500,775);
 
+    
+
 
 }
 
@@ -18,6 +20,7 @@ function draw() {
 
         fill(0);
         circle(750,380,500);
+
 
     }
 
