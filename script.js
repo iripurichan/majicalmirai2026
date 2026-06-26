@@ -2,6 +2,7 @@ let x_shapes;
 let y_shapes;
 let size;
 let shapeColor1
+//let shapeColor2
 
 
 function setup() {
@@ -11,11 +12,24 @@ function setup() {
 
     color(182, 220, 254),
     color(129, 247, 229),
-    color(255, 191, 216),
-    color(239, 247, 246)
+    color(7, 113, 135),
+    color(83, 89, 154)
 
     ];
     shapeColor1 = random(colors1);
+
+    //colors2 = [
+
+    //color(205, 180, 219),
+   // color(255, 175, 204),
+    //color(213, 93, 146),
+    //color(228, 63, 111)
+
+
+   // ];
+
+    //shapeColor2 = random(colors2);
+
 
 }
 
@@ -26,16 +40,7 @@ function draw() {
     quad(0, 25, 1300, 25, 1300, 650, 0, 650);
 
     fill(shapeColor1);
-    square1(0,25,325)
-
-    fill(shapeColor1);
-    square2(325, 350, 325)
-
-    fill(shapeColor1);
-    square3(650, 350, 325)
-
-    fill(shapeColor1);
-    square4(975, 675, 325)
+    square(random(0,1300),random(25,650),random(0,500))
 
 
     
