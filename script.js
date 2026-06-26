@@ -6,6 +6,8 @@ let shapeColor1
 
 
 function setup() {
+
+
     createCanvas(1300, 675);
 
     colors1 = [
@@ -34,14 +36,18 @@ function setup() {
 }
 
 function draw() {
+
     background(0);
 
     fill(255);
     quad(0, 25, 1300, 25, 1300, 650, 0, 650);
 
+    if (frameCount % 10 === 0){
+
     fill(shapeColor1);
     square(random(0,1300),random(25,650),random(0,500))
 
+    }
 
     
 }
