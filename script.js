@@ -4,9 +4,6 @@ let shapeColor1
 
 function setup() {
 
-    background(0);
-
-
     createCanvas(1300, 675);
 
     colors1 = [
@@ -35,6 +32,8 @@ function setup() {
 }
 
 function draw() {
+
+    background(0);
 
 
     fill(255);
