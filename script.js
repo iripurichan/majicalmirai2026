@@ -4,7 +4,7 @@ let shapeColor1
 
 function setup() {
 
-    createCanvas(1300, 675);
+    createCanvas(1500,775);
 
     colors1 = [
 
@@ -33,29 +33,22 @@ function setup() {
 
 function draw() {
 
-    background(61, 64, 91);
-
-
-    fill(233, 236, 239);
-    quad(0, 25, 1300, 25, 1300, 650, 0, 650);
+    background(255);
 
 
     fill(240, 128, 128);
-    square(325,25,325);
+    square(464,200,287.5);
 
     fill(164, 195, 178);
-    square(650,25,325);
+    square(751.5,200,287.5);
 
     fill(244, 226, 133);
-    square(325,350,325);
+    square(464,487.5,287.5);
 
     fill(234, 242, 215);
-    square(650,350,325);
+    square(751.5,487.5,287.5);
 
-
-
-
-    }
+ }
 
     
 
