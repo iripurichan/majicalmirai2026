@@ -1,6 +1,3 @@
-let x_shapes;
-let y_shapes;
-let size;
 let shapeColor1
 //let shapeColor2
 
@@ -43,10 +40,9 @@ function draw() {
     fill(255);
     quad(0, 50, 1300, 50, 1300, 625, 0, 625);
 
-    if (frameCount % 30 === 0){
 
     fill(shapeColor1);
-    square(random(0,1300),random(25,650),random(0,500))
+    square(mouseX,mouseY,random(0,500))
 
     }
 
