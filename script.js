@@ -24,6 +24,7 @@ function draw() {
         fill(255);
         circle(750,387.5,500);
 
+        imageMode(CENTER);
         image(miku,650,287.5);
 
 
