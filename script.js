@@ -8,7 +8,7 @@ function preload(){
 
 function setup() {
 
-    createCanvas(1500,775);
+    createCanvas(windowWidht,WindowHeight);
 
 
 
@@ -22,10 +22,10 @@ function draw() {
     if(mode == 0){
 
         fill(255);
-        circle(750,387.5,500);
+        circle(width/2,height/2,500);
 
         imageMode(CENTER);
-        image(miku,650,287.5);
+        image(miku,width/2,height/2);
 
 
     }
